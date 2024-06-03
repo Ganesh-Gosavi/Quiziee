@@ -1,0 +1,98 @@
+.container{
+display: flex;
+flex-direction: column;
+gap: 1px;
+padding:3px 4px;
+width:120px;
+height: 45px;
+background-color:rgba(255, 255, 255, 1) ;
+border: none;
+border-radius: 6px;
+}
+.upperContainer{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(71, 68, 68, 1);
+    font-weight: 500;
+    font-size: 0.75rem;
+    font-family: "Poppins",sans-serif;
+}
+.upperContainer :first-child{
+    width: fit-content; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.impressionContainer{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.impressionContainer > p {
+    font-weight: 500;
+    font-size:0.7rem;
+    color: rgba(255, 93, 1, 1);
+}
+.impressionContainer>img{
+    width: 15px;
+}
+.container > span {
+    color:rgba(96, 184, 75, 1) ;
+    font-weight: 500;
+    font-size: 0.6rem;
+}
+
+@media screen and (min-width:992px) {
+    .container{
+        padding:4px 6px;
+        width:140px;
+        height: 50px;
+        }
+        .upperContainer{
+            font-size: 0.9rem;
+        }
+        .impressionContainer{
+            display: flex;
+            gap: 2px;
+        }
+        .impressionContainer > p {
+            font-size:0.8rem;
+        }
+        .impressionContainer>img{
+            width: 20px;
+        }
+        .container > span {
+            color:rgba(96, 184, 75, 1) ;
+            font-weight: 600;
+            font-size: 0.7rem;
+        }
+      
+ }
+ 
+ @media screen and (min-width:1180px){
+    .container{
+        padding:4px 6px;
+        width:165px;
+        height: 62px;
+        }
+        .upperContainer{
+            font-size: 1.2rem;
+        }
+        .impressionContainer{
+            display: flex;
+            gap: 3px;
+        }
+        .impressionContainer > p {
+            font-size:1rem;
+        }
+        .impressionContainer>img{
+            width: 20px;
+        }
+        .container > span {
+            color:rgba(96, 184, 75, 1) ;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+ }
+ 

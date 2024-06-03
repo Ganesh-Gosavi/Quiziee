@@ -1,0 +1,21 @@
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+}
+.outletContainer{
+    width:84%;
+    background-color:rgba(237, 237, 237, 1);
+}
+.backgroundColor{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(0, 0, 0, 0.81) ;
+}
+@media screeen and (min-width:1200px){
+    .outletContainer{
+        width:85%;
+       
+    }
+}

@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap:1.1rem;
+}
+.container>h2{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.4rem;
+    color: 
+    rgba(0, 0, 0, 1);
+}
+.optionContainer{
+    display: flex;
+    gap: 2rem;
+}
+
+.border{
+    height: 2px;
+    width: 100%;
+    background-color:rgba(215, 215, 215, 1) ;
+}
+.selectedOption{
+   width: 8rem;
+   height:3rem; 
+   background-color: rgba(255, 255, 255, 1);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap:1rem;
+   border-radius:5px;
+}
+.selectedOption>h3{
+    color: rgba(71, 68, 68, 1);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+}
+.selectedOption>span{
+    font-family: 'Poppins',sans-serif;
+    font-size:0.8rem;
+    font-weight: 500;
+    color:rgba(71, 68, 68, 1) ;
+}
+
+@media screen and (min-width:992px){
+    .container{
+        gap:1.4rem;
+    }
+    .container>h2{
+        font-size: 1.4rem;
+       
+    }
+    .optionContainer{
+        gap: 2.2rem;
+    }
+    .selectedOption{
+        width: 11.5rem;
+        height: 4.2rem;
+       
+    }
+    .selectedOption>h3{
+        font-size: 2.2rem;
+    }
+    .selectedOption>span{
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (min-width:1200px){
+    .container{
+        gap:1.8rem;
+    }
+    .container>h2{
+        font-size: 2rem;
+       
+    }
+    .optionContainer{
+        gap: 2.2rem;
+    }
+    .selectedOption{
+        width: 15rem;
+        height: 6rem;
+       
+    }
+    .selectedOption>h3{
+        font-size: 2.8rem;
+    }
+    .selectedOption>span{
+        font-size: 1.2em;
+    }
+
+}

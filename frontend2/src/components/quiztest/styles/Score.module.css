@@ -1,0 +1,117 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-family: 'Poppins',sans-serif;
+ }
+
+ .container>:first-child{
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: rgba(71, 68, 68, 1);
+    text-align: center;
+ }
+
+ .score{
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: rgba(71, 68, 68, 1);
+ }
+ .score>span{
+    font-family: 'Poppins',sans-serif;
+    color:rgba(96, 184, 75, 1) ;
+ }
+ .pollContainer{
+   text-align: center;
+   color: rgba(71, 68, 68, 1);
+   width: 80%;
+ }
+ .pollContainer>span{
+   font-size: 2.5rem;
+   font-weight: 700;
+ }
+ 
+ @media only screen and (min-width: 768px) {
+   .container>:first-child{
+      font-size:2.4rem;
+      
+   }
+   .container>img{
+      width: 220px;
+   }
+   .score{
+      font-size:2.3rem;
+      
+   }
+   .pollContainer{
+      text-align: center;
+      color: rgba(71, 68, 68, 1);
+      width: 70%;
+    }
+    .pollContainer>span{
+      font-size: 3.2rem;
+      font-weight: 700;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   .container>:first-child{
+      font-size:2.6rem;
+      
+   }
+   .score{
+      font-size:2.5rem;
+      
+   }
+   .container>img{
+      width: 240px;
+   }
+   .pollContainer{
+      font-size: 4rem;
+   }
+   .pollContainer{
+      text-align: center;
+      color: rgba(71, 68, 68, 1);
+      width: 60%;
+    }
+    .pollContainer>span{
+      font-size: 3.7rem;
+      font-weight: 700;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   .container>:first-child{
+      font-size:2.8rem;
+      
+   }
+   .score{
+      font-size:2.7rem;
+      
+   }
+   .container>img{
+      width: 260px;
+     
+   }
+   .pollContainer{
+      text-align: center;
+      color: rgba(71, 68, 68, 1);
+      width: 50%;
+    }
+    .pollContainer>span{
+      font-size: 4.2rem;
+      font-weight: 700;
+    }
+}

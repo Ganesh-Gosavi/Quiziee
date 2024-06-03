@@ -1,0 +1,62 @@
+.popupContainer{
+    position: fixed;
+    width: 450px;
+    height: 260px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(255, 255, 255, 1);
+    border:none; 
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins',sans-serif;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+   
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 1.6rem;
+    text-align: center;
+    color:rgba(71, 68, 68, 1);
+    font-weight: 500;
+}
+.popupContainer>input{
+    width: 75%;
+    padding:0 1.2rem;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-top: 0.6rem;
+    padding-bottom: 0.4rem;
+    color:  rgba(71, 68, 68, 1);
+    background-color: rgba(237, 237, 237, 1);
+    outline: none;
+}
+.shareButton{
+    width: 11rem;
+    padding:0.3rem;
+    border: none;
+    background-color: rgba(96, 184, 75, 1);
+    color:rgba(255, 255, 255, 1);
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin:0px auto;
+    font-family: 'Poppins',sans-serif;
+}
+.closeButton{
+    position: fixed;
+    right: 10px;
+    top:1px;
+    width: 35px;
+    cursor: pointer;
+}

@@ -1,0 +1,243 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(237, 237, 237, 1) ;
+    gap: 2rem;
+}
+
+.upperSection{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-family: "Poppins",sans-serif;
+}
+
+.quizInfo{
+    width: 30%;
+    height:inherit;
+    background-color:rgba(255, 255, 255, 1) ;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quizBox1{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    color: rgba(255, 93, 1, 1);
+}
+.quizCreated{
+    font-size:2rem;
+    font-weight: 600;
+    display: inline-block;
+    text-align: left;
+}
+.quizCreated > span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+}
+.Box1 > p:nth-child(2){
+    font-size:1.1rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.questionCreated{
+    font-size:2rem;
+    font-weight: 600;
+    display: inline-block;
+    text-align: left;
+    color: rgba(96, 184, 75, 1);
+  
+}
+.questionCreated > span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+    
+}
+.Box2 > p:nth-child(2){
+    font-size:1.1rem;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(96, 184, 75, 1);
+}
+
+
+.impression{
+    font-size:2rem;
+    font-weight: 600; 
+    display: inline-block;
+    text-align: left;
+    color: rgba(80, 118, 255, 1);
+    
+}
+.impression> span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+}
+.Box3 > p:nth-child(2){
+    font-size:1.1rem;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(80, 118, 255, 1);
+}
+
+.lowerSection{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap:1rem;
+}
+.lowerSection > h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+    color:  rgba(71, 68, 68, 1) ;
+}
+.quizContainer{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
+    column-gap:1.5rem;
+}
+
+@media screen and (min-width:992px) {
+    .container{
+        gap: 3rem;
+    }
+    
+    .upperSection{
+        margin-top: 4rem;
+    }
+    
+    .quizInfo{
+        width: 30%;
+        height:90px;
+        
+    }
+    .quizBox1{
+        gap:3px;
+    }
+    .quizCreated{
+        font-size:  2.4rem;
+    }
+    .quizCreated > span{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .Box1 > p:nth-child(2){
+        font-size:1.3rem;
+        font-weight: 600;
+    }
+    
+    .questionCreated{
+        font-size:2.4rem;
+    }
+    .questionCreated > span{
+        font-size: 1.3rem;
+    }
+    .Box2 > p:nth-child(2){
+        font-size:1.3rem;
+    }
+    
+    
+    .impression{
+        font-size:2.4rem;
+        
+    }
+    .impression> span{
+        font-size: 1.3rem;
+    }
+    .Box3 > p:nth-child(2){
+        font-size: 1.3rem;
+    }
+    
+    .lowerSection{
+        gap: 1.2rem;
+    }
+    .lowerSection > h3{
+        font-size: 1.6rem;
+        
+    }
+    .quizContainer{
+        row-gap: 1.5rem;
+        column-gap:1.5rem;
+    }
+ }
+ 
+ @media screen and (min-width:1200px){
+    .container{
+        gap: 6rem;
+    }
+    .upperSection{
+        margin-top: 6rem;
+    }
+    .quizInfo{
+        width: 30%;
+        height:120px;
+        
+    }
+    .quizBox1{
+        gap:4px;
+    }
+    .quizCreated{
+        font-size:  2.8rem;
+    }
+    .quizCreated > span{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    .Box1 > p:nth-child(2){
+        font-size:1.7rem;
+        font-weight: 600;
+    }
+    
+    .questionCreated{
+        font-size:2.8rem;
+    }
+    .questionCreated > span{
+        font-size: 1.7rem;
+    }
+    .Box2 > p:nth-child(2){
+        font-size:1.7rem;
+    }
+    
+    
+    .impression{
+        font-size:2.8rem;
+        
+    }
+    .impression> span{
+        font-size:1.7rem;
+    }
+    .Box3 > p:nth-child(2){
+        font-size:1.7rem;
+    }
+    
+    .lowerSection{
+        gap: 3rem;
+    }
+    .lowerSection > h3{
+        font-size: 2.5rem;
+        
+    }
+    .quizContainer{
+        row-gap: 3rem;
+        column-gap:3rem;
+    }  
+ }
+ 

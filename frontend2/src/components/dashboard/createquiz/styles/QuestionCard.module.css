@@ -1,0 +1,318 @@
+.popupContainer{
+    position: fixed;
+    width: 60%; 
+    height: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(255, 255, 255, 1);
+    border:none; 
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.7rem;
+}
+.questionInfo{
+   width: 80%;
+   height: 35%;
+   display: flex;
+   flex-direction: column;
+   gap: 1.3rem;
+   padding-top: 1rem ;
+}
+.questionInfoContainer{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'Poppins',sans-serif;
+}
+.questionsContainer{
+    display: flex;
+    gap: 0.7rem;
+    align-items: baseline;
+}
+.addContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.9rem;
+    font-weight: 600;
+    margin:auto auto;
+    color:rgba(159, 159, 159, 1) ;
+    cursor: pointer;
+    
+}
+.addlogo{
+    stroke-width: 12px; 
+
+      stroke: currentColor;
+}
+.questionContainer{
+    background-color:rgba(255, 255, 255, 1);
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: rgba(159, 159, 159, 1);
+    font-weight: 500;
+    border: none;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    cursor: pointer;
+}
+.crosslogo{
+    position: absolute;
+    font-size:12px;
+    float: right;
+    right: 0;
+    top: 0;
+    stroke-width: 1px;
+    stroke: currentColor;
+    color: rgba(71, 68, 68, 1);
+}
+.maxquestion{
+    color: 
+    rgba(159, 159, 159, 1);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.questionInput{
+    height: 50px;
+    border: none;
+    color: rgba(159, 159, 159, 1);
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.15);
+    border-radius:8px;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    outline: none;
+}
+.questionInput::placeholder{
+    font-family: 'Poppins',sans-serif;
+    padding: auto;
+    color:rgba(159, 159, 159, 1);
+    font-family: 'Poppins',sans-serif;
+}
+
+.optionTypeContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(159, 159, 159, 1);
+    font-family: 'Poppins',sans-serif;
+    font-size:0.9rem;
+    font-weight: 500;
+}
+.optiontype{
+    display: flex;
+    align-items: center;
+    gap:0.3rem
+}
+
+.radioOuterDiv {
+    width: 19px;
+    height: 19px;
+    border: none;
+    border-radius: 100%;
+    border: 2px solid rgba(217, 217, 217, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+
+.radioInnerDiv {
+    width: 11px;
+    height: 11px;
+    border: none;
+    border-radius: 100%;
+    background-color:inherit;
+    cursor: pointer;
+}
+.activeRadio{
+    background-color:rgba(53, 52, 52, 1);
+}
+.selectOption{
+  display: flex;
+  margin-left:3rem;
+  margin-right: 4.5rem;
+  width: calc(100% - 7.5rem);
+  justify-content: space-between;
+}
+
+.timerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.timerContainer>span{
+    color:rgba(159, 159, 159, 1) ;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top:1rem;
+}
+
+.timerContainer>button{
+    width: 84px;
+    height:29px;
+    border: none;
+    border-radius: 8px;
+    color: rgba(159, 159, 159, 1);
+    background-color: 
+    rgba(255, 255, 255, 1);
+    
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.15);
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.6rem;
+}
+.text{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.inputRadio{
+    font-size: 20px;
+}
+.inputText{
+    width: 230px;
+    height:35px;
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(159, 159, 159, 1) ;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 0.6rem;
+    padding: auto;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.15);
+}
+.text>img{
+    height:18px;
+}
+.addsection{
+    width: 230px;
+    height: 35px;
+    margin-left: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 1) ;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    color: rgba(159, 159, 159, 1);
+}
+
+.buttonContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.3rem;
+}
+.cancelbutton {
+    width: 230px;
+    height: 33px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(71, 68, 68, 1);
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    cursor: pointer; 
+
+}
+
+
+.createbutton{
+    width: 230px;
+    height:33px;
+    background-color: 
+    rgba(96, 184, 75, 1);
+    color:rgba(255, 255, 255, 1) ;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    cursor: pointer;
+}
+
+.timerContainer > .activeTimer {
+    background-color: rgba(214, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+@media screen and (min-width:1200px){
+   
+    .questionInfo{
+        gap: 2rem;
+        padding-top: 3rem;
+    }
+
+    .questionContainer{
+        width: 50px;
+        height: 50px;
+    }
+    .questionInput{
+        font-family: 'Poppins',sans-serif;
+        font-size: 1.2rem;
+    }
+    .optionTypeContainer{
+     width: 95%;
+     font-size: 1.2rem;
+     
+    }
+    .timerContainer{
+        margin-top: 3rem;
+        gap: 1rem;
+    }
+    .timerContainer>span{
+        font-size: 1.2rem;
+    }
+    .timerContainer>button{
+        font-size: 1.2rem;
+        width:90px;
+        height:35px;
+    }
+    .buttonContainer{
+        margin-top:1rem;
+    }
+    .buttonContainer>button{
+        width:250px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+    
+}

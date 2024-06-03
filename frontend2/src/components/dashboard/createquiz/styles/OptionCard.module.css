@@ -1,0 +1,215 @@
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.text{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+
+.inputText{
+    width: 240px;
+    height:35px;
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(159, 159, 159, 1) ;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.15);
+}
+.text>img{
+    height:18px;
+}
+.addsection{
+    width: 200px;
+    height: 35px;
+    margin-left: 2rem;
+    border: none;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 1) ;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    color: rgba(159, 159, 159, 1);
+}
+
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.6rem;
+}
+.image{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+
+.inputImage{
+    width: 240px;
+    height:35px;
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(159, 159, 159, 1) ;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.15);
+}
+.image>img{
+    height:18px;
+}
+
+.textimageContainer{
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.6rem;
+}
+.textimage{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+
+.textImageText{
+    width: 130px;
+    height:35px;
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(159, 159, 159, 1) ;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 0.6rem;
+
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.15);
+}
+.textImageUrl{
+    width:200px;
+    height:35px;
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(159, 159, 159, 1) ;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 0.6rem;
+    padding: auto;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.15);
+}
+.textimage>img{
+    height:18px;
+}
+
+
+.radioOuterDiv {
+    width: 19px;
+    height: 19px;
+    border: none;
+    border-radius: 100%;
+    border: 2px solid rgba(217, 217, 217, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+
+.radioInnerDiv {
+    width: 11px;
+    height: 11px;
+    border: none;
+    border-radius: 100%;
+    background-color:
+    rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.activeRadio{
+    background-color: rgba(96, 184, 75, 1);
+}
+.activeSelectedOptions{
+    background-color:rgba(96, 184, 75, 1);
+    color: rgb(255, 255, 255,1);
+}
+.activeSelectedOptions::placeholder{
+    color: rgb(255, 255, 255,1);
+}
+
+@media screen and (min-width:1200px){
+    .optionsContainer{
+        margin-top: 1rem;
+    }
+    .textContainer{
+       gap: 1rem;
+    }
+    .text{
+       gap:1rem;
+    }
+    .inputText{
+        width: 260px;
+        height: 45px;
+        font-family: 'Poppins',sans-serif;
+        font-size: 1.2rem;
+    }
+    .text>img{
+        height: 20px;
+    }
+    .addsection{
+        width: 230px;
+        height: 45px;
+        font-family: 'Poppins',sans-serif;
+        font-size: 1.2rem;
+    }
+    .imageContainer{
+        gap: 1rem;
+    }
+    .image{
+        gap: 1rem;
+       
+    }
+    .inputImage{
+        width: 260px;
+        height: 45px;
+        font-family: 'Poppins',sans-serif;
+        font-size: 1.2rem;
+    }
+    .image>img{
+        height: 20px;
+    }
+    .textimageContainer{
+        gap: 1rem;
+    }
+    .textimage{
+        gap: 1rem;
+    }
+    .textImageText{
+        width: 150px;
+        height: 45px;
+        font-family: 'Poppins',sans-serif;
+        font-size: 1.2rem;
+    }
+    .textImageUrl{
+        width: 220px;
+        height: 45px;
+        font-family: 'Poppins',sans-serif;
+        font-size: 1.2rem;
+    }
+    .textimage>img{
+        height:20px;
+    }
+}

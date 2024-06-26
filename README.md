@@ -4,7 +4,7 @@ Quiziee is a web application built with the MERN (MongoDB, Express.js, React.js,
 
 ## Features
 
-- Create and manage quizzes
+- Create and manage quizzes 
 - Take quizzes and receive instant feedback
 - User authentication and authorization
 - Dashboard for quiz statistics and user management

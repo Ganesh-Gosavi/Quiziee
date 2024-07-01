@@ -1,7 +1,7 @@
 # Quiziee
  
 Quiziee is a web application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack, featuring a quiz platform with state management handled by Redux. This repository contains both the frontend and backend code for Quiziee.
-
+   
 ## Features 
 
 - Create and manage quizzes     

@@ -7,7 +7,7 @@ Create and Manage Quizzes: Easily create quizzes with multiple questions and man
 Take Quizzes and Receive Instant Feedback: Users can take quizzes and get instant feedback on their performance.
 User Authentication and Authorization: Secure user authentication and authorization using JWT.
 Dashboard for Quiz Statistics and User Management: Comprehensive dashboard to view quiz statistics and manage users.       
-Responsive Design: Optimized for both mobile and desktop devices.
+Responsive Design: Optimized for both mobile and desktop devices         
 Technologies Used
 Frontend
 React.js: JavaScript library for building user interfaces.

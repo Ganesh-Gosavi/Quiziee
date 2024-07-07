@@ -6,7 +6,7 @@ Features
 Create and Manage Quizzes: Easily create quizzes with multiple questions and manage them through an intuitive interface.
 Take Quizzes and Receive Instant Feedback: Users can take quizzes and get instant feedback on their performance.
 User Authentication and Authorization: Secure user authentication and authorization using JWT.
-Dashboard for Quiz Statistics and User Management: Comprehensive dashboard to view quiz statistics and manage users.
+Dashboard for Quiz Statistics and User Management: Comprehensive dashboard to view quiz statistics and manage users.       
 Responsive Design: Optimized for both mobile and desktop devices.
 Technologies Used
 Frontend

@@ -122,3 +122,16 @@ The backend is hosted on **Render**. Follow the steps below to deploy:
 ## 📂 Project Structure
 
 quiziee/ ├── backend/ │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── server.js │ └── .env └── frontend/ ├── src/ ├── components/ ├── redux/ ├── App.js └── .env
+
+## Sreenshot Section
+
+![App Screenshot](./QuizeImg/ss1.png)
+![App Screenshot](./QuizeImg/ss2.png)
+![App Screenshot](./QuizeImg/ss3.png)
+![App Screenshot](./QuizeImg/ss4.png)
+![App Screenshot](./QuizeImg/ss5.png)
+![App Screenshot](./QuizeImg/ss6.png)
+![App Screenshot](./QuizeImg/ss7.png)
+![App Screenshot](./QuizeImg/ss8.png)
+![App Screenshot](./QuizeImg/ss10.png)
+

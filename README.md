@@ -123,7 +123,7 @@ The backend is hosted on **Render**. Follow the steps below to deploy:
 
 quiziee/ ├── backend/ │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── server.js │ └── .env └── frontend/ ├── src/ ├── components/ ├── redux/ ├── App.js └── .env
 
-## Sreenshot Section
+## Screenshot Section
 
 ![App Screenshot](./QuizeImg/ss1.png)
 ![App Screenshot](./QuizeImg/ss2.png)

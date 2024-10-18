@@ -52,7 +52,7 @@ Ensure you have the following installed on your local environment:
     - For the **backend**:
 
       ```bash
-      cd backend
+      cd backend 
       npm install
       ```
 
